@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: #1f2937;
 }
 
 .header {
@@ -83,7 +84,8 @@ body {
     justify-content: center;
     flex-direction: column;
     /*border: 5px solid red;*/
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+    background-color: white;
 }
 
 .info h2 {
