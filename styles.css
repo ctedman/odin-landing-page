@@ -49,13 +49,13 @@ body {
     margin: 0px;
 }
 
-.text-container p {
+.header .text-container p {
     font-size: 18px;
     color: #e5e7eb;
     margin: 0px;
 }
 
-.text-container {
+.header .text-container {
     margin: 0px 24px 0px 0px;
     display: flex;
     flex-direction: column;
@@ -118,10 +118,25 @@ body {
 .quote {
     display: flex;
     background-color: #e5e7eb;
-    color: #1f2937;
-    font-size: 36px;
-    font-weight: lighter;
-    font-style: italic;
-    padding: 50px;
     justify-content: center;
+    color: #1f2937;
+}
+
+.quote .text-container {
+    display: flex;
+    flex-direction: column;
+    padding: 75px 200px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    margin: 0px 0px 0px 0px;
+}
+
+.quote-author {
+    font-weight: 900;
+    margin: 0px;
+    align-self: flex-end;
 }
